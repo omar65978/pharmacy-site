@@ -3,6 +3,7 @@ import { toMedicine, type Medicine, type MedicineRaw } from './catalog';
 /** Egyptian number 01020345314 in WhatsApp's international number format. */
 export const WHATSAPP_NUMBER = '201020345314';
 export const DISPLAY_PHONE = '01020345314';
+export const PRESCRIPTION_MESSAGE = 'هل لديكم هذه الروشتة؟';
 export const CART_STORAGE_KEY = 'ali-abbas-pharmacy-cart-v1';
 
 export interface CartLine {

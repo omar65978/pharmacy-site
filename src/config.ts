@@ -1,3 +1,6 @@
+// Use the same final, public domain for canonical URLs and generated sitemaps.
+export const SITE_ORIGIN = 'https://dr-ali-abbas-pharmacy-site-14xz.vercel.app';
+
 export const MAP_LINK = 'https://maps.app.goo.gl/Pmdh7Nh8gGHSpTdh9';
 
 // The pharmacy's exact map embed supplied by the client (صيدلية الدكتور علي عباس).

@@ -1,9 +1,6 @@
 /** Public Egyptian medicine directory. The listing is NOT this pharmacy's inventory. */
 export const MEDICINES_API_URL =
   'https://raw.githubusercontent.com/karem505/egyptian-drug-database/main/data/egyptian-drugs.json';
-const BACKUP_API_URL =
-  'https://cdn.jsdelivr.net/gh/karem505/egyptian-drug-database@main/data/egyptian-drugs.json';
-
 export type CategoryId = 'all' | 'pain' | 'cold' | 'vitamins' | 'skin' | 'digestive' | 'antibiotics';
 export type ProductCategory = Exclude<CategoryId, 'all'> | 'other';
 export type SortOrder = 'default' | 'price-asc' | 'price-desc' | 'name';
@@ -54,7 +51,7 @@ export const FEATURED_NAMES = [
   'REDOX VITAMIN C 1000 MG 10 TABS.',
   'CATAFLAM 50 MG 20 SUGAR C.TABS.',
   'CLARITINE 10MG 20 TAB.',
-];
+] as const;
 
 export function normalizeSearch(value: string): string {
   return value
@@ -182,32 +179,13 @@ export function formatCount(value: number): string {
   return new Intl.NumberFormat('ar-EG-u-nu-latn').format(value);
 }
 
-async function fetchJson(url: string, signal?: AbortSignal): Promise<unknown> {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 25000);
-  const onAbort = () => controller.abort();
-  signal?.addEventListener('abort', onAbort, { once: true });
-  try {
-    const response = await fetch(url, { signal: controller.signal });
-    if (!response.ok) throw new Error(`تعذّر الوصول إلى المصدر (${response.status})`);
-    return await response.json() as unknown;
-  } finally {
-    clearTimeout(timer);
-    signal?.removeEventListener('abort', onAbort);
-  }
-}
-
 export async function loadEgyptianMedicines(signal?: AbortSignal): Promise<Medicine[]> {
-  for (const endpoint of [MEDICINES_API_URL, BACKUP_API_URL]) {
-    if (signal?.aborted) throw new DOMException('تم إيقاف الطلب', 'AbortError');
-    try {
-      const medicines = processMedicines(await fetchJson(endpoint, signal));
-      if (medicines.length < 1000) throw new Error('البيانات القادمة من المصدر غير مكتملة');
-      return medicines;
-    } catch (error) {
-      if (signal?.aborted) throw error;
-      // A second public CDN is tried before falling back to the bundled small sample.
-    }
-  }
-  throw new Error('تعذّر تحميل دليل الأدوية الآن');
+  // The browsable catalog and every indexed HTML URL must use the SAME version of the
+  // directory. Refresh it at build time via `npm run refresh:medicines`, never at runtime.
+  const response = await fetch('/data/medicines.json', { signal });
+  if (!response.ok) throw new Error(`تعذّر تحميل نسخة الدليل (${response.status})`);
+  const snapshot = await response.json() as { medicines?: unknown };
+  const medicines = processMedicines(snapshot.medicines);
+  if (medicines.length < 20000) throw new Error('نسخة دليل الأدوية غير مكتملة');
+  return medicines;
 }

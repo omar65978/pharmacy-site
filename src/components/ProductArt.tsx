@@ -10,7 +10,7 @@ const palettes: Record<ProductCategory, { background: string; accent: string; fa
   other: { background: '#edf1ed', accent: '#829a8c', faint: '#d7e2d9' },
 };
 
-/** Neutral dosage-form illustrations. They are not photos of the actual medicine pack. */
+/** Generic dosage-form illustrations: never a photograph of this medicine or its packaging. */
 export default function ProductArt({ medicine, compact = false }: { medicine: Medicine; compact?: boolean }) {
   const colors = palettes[medicine.category];
   const route = medicine.route.toUpperCase();
@@ -20,8 +20,8 @@ export default function ProductArt({ medicine, compact = false }: { medicine: Me
   const isLiquid = /ORAL.LIQUID/.test(route) || /SUSP\b|SYRUP/.test(name);
 
   return (
-    <div className={`product-art${compact ? ' product-art--compact' : ''}`} style={{ backgroundColor: colors.background }} aria-hidden="true">
-      <svg viewBox="0 0 252 158" focusable="false">
+    <div className={`product-art product-art--illustration${compact ? ' product-art--compact' : ''}`} style={{ backgroundColor: colors.background }} role="img" aria-label={`صورة تعبيرية عامة للشكل الدوائي، ليست صورة حقيقية للدواء ${medicine.commercial_name_ar} أو عبوته`}>
+      <svg viewBox="0 0 252 158" focusable="false" aria-hidden="true">
         <circle cx="211" cy="36" r="51" fill={colors.faint} opacity=".42" />
         <circle cx="32" cy="139" r="45" fill="#fff" opacity=".32" />
         <ellipse cx="124" cy="134" rx="86" ry="8" fill="#36564b" opacity=".09" />
@@ -70,6 +70,11 @@ export default function ProductArt({ medicine, compact = false }: { medicine: Me
           </g>
         )}
       </svg>
+      {compact ? (
+        <span className="product-art__illustration-badge product-art__illustration-badge--compact" aria-hidden="true">تعبيرية</span>
+      ) : (
+        <span className="product-art__illustration-badge" aria-hidden="true"><strong>صورة تعبيرية</strong><span>ليست صورة حقيقية لهذا الدواء</span></span>
+      )}
     </div>
   );
 }

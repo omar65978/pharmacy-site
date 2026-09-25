@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { toMedicine } from './catalog';
-import { cartOrderMessage, singleOrderMessage, whatsappLink, WHATSAPP_NUMBER } from './order';
+import { cartOrderMessage, PRESCRIPTION_MESSAGE, singleOrderMessage, whatsappLink, WHATSAPP_NUMBER } from './order';
 
 const first = toMedicine({
   commercial_name_ar: 'بانادول إكسترا', commercial_name_en: 'PANADOL EXTRA 24 F.C. TABS.',
@@ -31,5 +31,10 @@ describe('WhatsApp ordering', () => {
     const link = new URL(whatsappLink(singleOrderMessage(first)));
     expect(link.pathname).toBe(`/${WHATSAPP_NUMBER}`);
     expect(link.searchParams.get('text')).toBe(singleOrderMessage(first));
+  });
+  it('prepares the exact prescription question for the pharmacy', () => {
+    const link = new URL(whatsappLink(PRESCRIPTION_MESSAGE));
+    expect(link.pathname).toBe(`/${WHATSAPP_NUMBER}`);
+    expect(link.searchParams.get('text')).toBe('هل لديكم هذه الروشتة؟');
   });
 });

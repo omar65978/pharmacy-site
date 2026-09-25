@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dr-ali-abbas-pharmacy-site-14xz.vercel.app/sitemap.xml
