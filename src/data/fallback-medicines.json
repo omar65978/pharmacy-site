@@ -1,0 +1,407 @@
+[
+  {
+    "commercial_name_en": "PANADOL EXTRA 24 F.C. TABS.",
+    "commercial_name_ar": "بانادول إكسترا",
+    "scientific_name": "CAFFEINE+PARACETAMOL(ACETAMINOPHEN)",
+    "manufacturer": "ALEXANDRIA > GLAXO SMITHKLINE",
+    "drug_class": "MILD ANALGESIC",
+    "route": "ORAL.SOLID",
+    "price_egp": 54.0
+  },
+  {
+    "commercial_name_en": "CONGESTAL 20 TABS.",
+    "commercial_name_ar": "كونجيستال",
+    "scientific_name": "CHLORPHENIRAMINE+PARACETAMOL(ACETAMINOPHEN)+PSEUDOEPHEDRINE",
+    "manufacturer": "SIGMA",
+    "drug_class": "COLD PRODUCTS",
+    "route": "ORAL.SOLID",
+    "price_egp": 50.0
+  },
+  {
+    "commercial_name_en": "BRUFEN 400 MG 30 TABS.",
+    "commercial_name_ar": "بروفين",
+    "scientific_name": "IBUPROFEN",
+    "manufacturer": "KAHIRA > ABBOTT LABORATORIES",
+    "drug_class": "NSAID.PROPIONIC ACID DERIVATIVES",
+    "route": "ORAL.SOLID",
+    "price_egp": 78.0
+  },
+  {
+    "commercial_name_en": "BEPANTHEN CREAM 30 GM",
+    "commercial_name_ar": "بيبانثين",
+    "scientific_name": "DEXAPANTHENOL",
+    "manufacturer": "BAYER HEALTHCARE > RAMCO",
+    "drug_class": "SKIN CARE",
+    "route": "TOPICAL",
+    "price_egp": 215.0
+  },
+  {
+    "commercial_name_en": "GAVISCON DOUBLE ACTION SUSP 150 ML",
+    "commercial_name_ar": "جافيسكون دوبلي أكتيون",
+    "scientific_name": "SODIUM ALGINATE+SODIUM BICARBONATE+CALCIUM CARBONATE",
+    "manufacturer": "RECKITT BENCKISER HEALTHCARE > UNITED PARTNERS",
+    "drug_class": "ANTACID",
+    "route": "ORAL.LIQUID",
+    "price_egp": 144.0
+  },
+  {
+    "commercial_name_en": "REDOX VITAMIN C 1000 MG 10 TABS.",
+    "commercial_name_ar": "ريدوكس فيتامين ك",
+    "scientific_name": "VITAMIN C",
+    "manufacturer": "INTERNATIONAL DRUG AGENCY (IDI)",
+    "drug_class": "VITAMIN C",
+    "route": "ORAL.SOLID",
+    "price_egp": 35.0
+  },
+  {
+    "commercial_name_en": "CATAFLAM 50 MG 20 SUGAR C.TABS.",
+    "commercial_name_ar": "كاتافلام 20 سوجار ك",
+    "scientific_name": "DICLOFENAC POTASSIUM",
+    "manufacturer": "NOVARTIS",
+    "drug_class": "NSAID.ACETIC ACID DERIVATIVES",
+    "route": "ORAL.SOLID",
+    "price_egp": 86.0
+  },
+  {
+    "commercial_name_en": "CLARITINE 10MG 20 TAB.",
+    "commercial_name_ar": "كلاريتيني",
+    "scientific_name": "LORATADINE",
+    "manufacturer": "SEDICO > BAYER HEALTHCARE",
+    "drug_class": "ANTI-HISTAMINE.ANTI-ALLERGY",
+    "route": "ORAL.SOLID",
+    "price_egp": 110.0
+  },
+  {
+    "commercial_name_en": "PANADOL EXTRA 48 F.C. TABS.",
+    "commercial_name_ar": "بانادول إكسترا",
+    "scientific_name": "CAFFEINE+PARACETAMOL(ACETAMINOPHEN)",
+    "manufacturer": "ALEXANDRIA > GLAXO SMITHKLINE",
+    "drug_class": "MILD ANALGESIC",
+    "route": "ORAL.SOLID",
+    "price_egp": 108.0
+  },
+  {
+    "commercial_name_en": "PANADOL ADVANCE 500 MG 24 F.C.TABS.",
+    "commercial_name_ar": "بانادول أدفانسي",
+    "scientific_name": "PARACETAMOL(ACETAMINOPHEN)",
+    "manufacturer": "ALEXANDRIA > GLAXO SMITHKLINE",
+    "drug_class": "ANTIPYRETIC",
+    "route": "ORAL.SOLID",
+    "price_egp": 46.0
+  },
+  {
+    "commercial_name_en": "VOLTAREN 50MG 20 TAB.",
+    "commercial_name_ar": "فولتارين",
+    "scientific_name": "DICLOFENAC SODIUM",
+    "manufacturer": "NOVARTIS",
+    "drug_class": "NSAID.ACETIC ACID DERIVATIVES",
+    "route": "ORAL.SOLID",
+    "price_egp": 68.0
+  },
+  {
+    "commercial_name_en": "BETADINE 10% (20G) OINT.",
+    "commercial_name_ar": "بيتاديني 10%",
+    "scientific_name": "POVIDONE- IODINE",
+    "manufacturer": "EL NILE. > MUNDIPHARMA",
+    "drug_class": "ANTISEPTIC",
+    "route": "TOPICAL",
+    "price_egp": 7.5
+  },
+  {
+    "commercial_name_en": "BETADINE 10% (60G) OINT.",
+    "commercial_name_ar": "بيتاديني 10%",
+    "scientific_name": "POVIDONE- IODINE",
+    "manufacturer": "EL NILE. > MUNDIPHARMA",
+    "drug_class": "ANTISEPTIC",
+    "route": "TOPICAL",
+    "price_egp": 15.75
+  },
+  {
+    "commercial_name_en": "BEPANTHEN OINTMENT 30 GM",
+    "commercial_name_ar": "بيبانثين",
+    "scientific_name": "DEXAPANTHENOL",
+    "manufacturer": "BAYER HEALTHCARE > RAMCO",
+    "drug_class": "SKIN CARE",
+    "route": "TOPICAL",
+    "price_egp": 193.0
+  },
+  {
+    "commercial_name_en": "NEXIUM 20 MG 28 F.C.TABS.",
+    "commercial_name_ar": "نيكسيوم",
+    "scientific_name": "ESOMEPRAZOLE",
+    "manufacturer": "ASTRA ZENECA",
+    "drug_class": "PEPTIC ULCER.PROTON PUMP INHIBITOR",
+    "route": "ORAL.SOLID",
+    "price_egp": 332.0
+  },
+  {
+    "commercial_name_en": "NEXIUM 40 MG 28 F.C.TABS.",
+    "commercial_name_ar": "نيكسيوم",
+    "scientific_name": "ESOMEPRAZOLE",
+    "manufacturer": "ASTRA ZENECA",
+    "drug_class": "PEPTIC ULCER.PROTON PUMP INHIBITOR",
+    "route": "ORAL.SOLID",
+    "price_egp": 488.0
+  },
+  {
+    "commercial_name_en": "COLONA 30 F.C.TAB.",
+    "commercial_name_ar": "كولونا",
+    "scientific_name": "MEBEVERINE+SULPIRIDE",
+    "manufacturer": "RAMEDA",
+    "drug_class": "ANTISPASMODIC",
+    "route": "ORAL.SOLID",
+    "price_egp": 69.0
+  },
+  {
+    "commercial_name_en": "DISFLATYL 40 MG 30 CHEW. TABS.",
+    "commercial_name_ar": "ديسفلاتيل 30 تشيو",
+    "scientific_name": "SIMETHICONE",
+    "manufacturer": "MISR > VALEANT PHARMA",
+    "drug_class": "ANTIFLATULENT",
+    "route": "ORAL.SOLID",
+    "price_egp": 54.0
+  },
+  {
+    "commercial_name_en": "STREPSILS HONEY & LEMON 24 LOZENGES",
+    "commercial_name_ar": "ستريبسيلس هوني & ليمون",
+    "scientific_name": "DICHLOROPHENYLCARBINOL+AMYLMETACRESOL",
+    "manufacturer": "RECKITT BENCKISER HEALTHCARE > UNITED PARTNERS",
+    "drug_class": "SORE THROAT",
+    "route": "UNKNOWN",
+    "price_egp": 200.0
+  },
+  {
+    "commercial_name_en": "SYSTANE EYE GEL DROPS 10 ML",
+    "commercial_name_ar": "سيستاني إيي",
+    "scientific_name": "POLYETHYLENE GLYCOL 400+PROPYLENE GLYCOL",
+    "manufacturer": "ALCON > NOVARTIS SCIENTIFIC OFFICE",
+    "drug_class": "EYE LUBRICANT",
+    "route": "EYE",
+    "price_egp": 360.0
+  },
+  {
+    "commercial_name_en": "OTRIVIN 0.1% ADULT NASAL DROPS 15 ML",
+    "commercial_name_ar": "أوتريفين 0.1% أدولت",
+    "scientific_name": "XYLOMETAZOLINE",
+    "manufacturer": "GLAXO SMITHKLINE",
+    "drug_class": "NASAL CONGESTION.ADRENERGIC ALPHA-AGONIST",
+    "route": "UNKNOWN",
+    "price_egp": 24.0
+  },
+  {
+    "commercial_name_en": "ORANGE C 12 EFF. TABS.",
+    "commercial_name_ar": "أورانجي ك 12 إفف",
+    "scientific_name": "VITAMIN C+ZINC",
+    "manufacturer": "AMCOMED > EXCELLENCE PHARMA GROUP (EPG)",
+    "drug_class": "MULTIVITAMIN",
+    "route": "EFF",
+    "price_egp": 39.0
+  },
+  {
+    "commercial_name_en": "AUGMENTIN 1 GM 14 F.C.TABS.",
+    "commercial_name_ar": "أوجمينتين",
+    "scientific_name": "AMOXICILLIN+CLAVULANIC ACID",
+    "manufacturer": "MUP > SMITHKLINE BEECHAM",
+    "drug_class": "PENICILLINS.PENICILLIN WITH B-LACTAMASE INHIBITOR",
+    "route": "ORAL.SOLID",
+    "price_egp": 210.0
+  },
+  {
+    "commercial_name_en": "FLAGYL 500MG 20 TAB.",
+    "commercial_name_ar": "فلاجيل",
+    "scientific_name": "METRONIDAZOLE",
+    "manufacturer": "SANOFI",
+    "drug_class": "ANTIPROTOZOAL.NITROIMIDAZOLE",
+    "route": "ORAL.SOLID",
+    "price_egp": 34.0
+  },
+  {
+    "commercial_name_en": "CELEBREX 200MG 10 CAPS.",
+    "commercial_name_ar": "سيليبريكس",
+    "scientific_name": "CELECOXIB",
+    "manufacturer": "PFIZER > VIATRIS EGYPT",
+    "drug_class": "NSAID.SELECTIVE COX-2 INHIBITORS",
+    "route": "ORAL.SOLID",
+    "price_egp": 132.0
+  },
+  {
+    "commercial_name_en": "DOLO-D 20 TABS.",
+    "commercial_name_ar": "دولو-د",
+    "scientific_name": "IBUPROFEN+PSEUDOEPHEDRINE",
+    "manufacturer": "BORG",
+    "drug_class": "COLD PRODUCTS",
+    "route": "ORAL.SOLID",
+    "price_egp": 38.0
+  },
+  {
+    "commercial_name_en": "CETAL 1000MG 15 TABS.",
+    "commercial_name_ar": "سيتال",
+    "scientific_name": "PARACETAMOL(ACETAMINOPHEN)",
+    "manufacturer": "EIPICO",
+    "drug_class": "ANTIPYRETIC",
+    "route": "ORAL.SOLID",
+    "price_egp": 42.0
+  },
+  {
+    "commercial_name_en": "ZITHROMAX 250MG 6 CAPS.",
+    "commercial_name_ar": "زيثروماكس",
+    "scientific_name": "AZITHROMYCIN",
+    "manufacturer": "PFIZER",
+    "drug_class": "ANTIBIOTIC.MACROLIDE",
+    "route": "ORAL.SOLID",
+    "price_egp": 79.0
+  },
+  {
+    "commercial_name_en": "AMOXIL 500MG 12 CAPS.",
+    "commercial_name_ar": "أموكسيل",
+    "scientific_name": "AMOXICILLIN",
+    "manufacturer": "MUP > SMITHKLINE BEECHAM",
+    "drug_class": "PENICILLINS.MONOCOMPONENT",
+    "route": "ORAL.SOLID",
+    "price_egp": 9.0
+  },
+  {
+    "commercial_name_en": "GAVISCON ADVANCE SUSP 150 ML",
+    "commercial_name_ar": "جافيسكون أدفانسي",
+    "scientific_name": "POTASSIUM BICARBONATE+SODIUM ALGINATE",
+    "manufacturer": "RECKITT BENCKISER HEALTHCARE > UNITED PARTNERS",
+    "drug_class": "ANTACID",
+    "route": "ORAL.LIQUID",
+    "price_egp": 144.0
+  },
+  {
+    "commercial_name_en": "CATAFLAM 25 MG 20 SUGAR C.TABS.",
+    "commercial_name_ar": "كاتافلام 20 سوجار ك",
+    "scientific_name": "DICLOFENAC POTASSIUM",
+    "manufacturer": "NOVARTIS",
+    "drug_class": "NSAID.ACETIC ACID DERIVATIVES",
+    "route": "ORAL.SOLID",
+    "price_egp": 34.0
+  },
+  {
+    "commercial_name_en": "CONGESTAL SYRUP 120ML",
+    "commercial_name_ar": "كونجيستال",
+    "scientific_name": "CHLORPHENIRAMINE+DEXTROMETHORPHAN+PARACETAMOL(ACETAMINOPHEN)+PSEUDOEPHEDRINE",
+    "manufacturer": "SIGMA",
+    "drug_class": "COLD PRODUCTS",
+    "route": "ORAL.LIQUID",
+    "price_egp": 44.0
+  },
+  {
+    "commercial_name_en": "CALCIUM D3F 30 TAB.",
+    "commercial_name_ar": "كالسيوم د3ف",
+    "scientific_name": "CALCIUM CARBONATE NATURAL+SODIUM FLUORIDE+VITAMIN D3",
+    "manufacturer": "MEPACO",
+    "drug_class": "CALCIUM SUPPLEMENT WITH VITAMIN D",
+    "route": "ORAL.SOLID",
+    "price_egp": 90.0
+  },
+  {
+    "commercial_name_en": "ALPHINTERN 30 F.C.TABS.",
+    "commercial_name_ar": "ألفينتيرن",
+    "scientific_name": "CHYMOTRYPSIN+TRYPSIN",
+    "manufacturer": "AMOUN",
+    "drug_class": "ENZYME REPLACEMENT THERAPY",
+    "route": "ORAL.SOLID",
+    "price_egp": 87.0
+  },
+  {
+    "commercial_name_en": "SPASMOMEN 40 MG 20 TABS.",
+    "commercial_name_ar": "سباسمومين",
+    "scientific_name": "OTILONIUM BROMIDE",
+    "manufacturer": "MINA PHARM > MENARINI",
+    "drug_class": "ANTISPASMODIC",
+    "route": "ORAL.SOLID",
+    "price_egp": 80.0
+  },
+  {
+    "commercial_name_en": "VITACID C 1 GM 12 EFF. TAB.",
+    "commercial_name_ar": "فيتاسيد ك 12 إفف",
+    "scientific_name": "VITAMIN C",
+    "manufacturer": "CID",
+    "drug_class": "VITAMIN C",
+    "route": "EFF",
+    "price_egp": 54.0
+  },
+  {
+    "commercial_name_en": "ALICO VITAMIN D3 15 ML ORAL DROPS",
+    "commercial_name_ar": "أليكو فيتامين د3 أورال",
+    "scientific_name": "VITAMIN D3+LACTOBACILLUS+OLIVE OIL",
+    "manufacturer": "DAWA EGYPT INTERNATIONAL > ALICO PHARMA",
+    "drug_class": "VITAMIN D3 SUPPORTED BY LACTOBACILLUS AND OLIVE OIL",
+    "route": "ORAL.LIQUID",
+    "price_egp": 68.0
+  },
+  {
+    "commercial_name_en": "LIMITLESS ZINC 25 MG 30 TABS.",
+    "commercial_name_ar": "ليميتليسس زينك",
+    "scientific_name": "ZINC GLUCONATE",
+    "manufacturer": "EVA PHARMA",
+    "drug_class": "ZINC",
+    "route": "ORAL.SOLID",
+    "price_egp": 90.0
+  },
+  {
+    "commercial_name_en": "ACTIMOXIFLOX 400 MG 10 F.C.TABS.",
+    "commercial_name_ar": "أكتيموكسيفلوكس",
+    "scientific_name": "MOXIFLOXACIN",
+    "manufacturer": "INTERNATIONAL DRUG AGENCY (IDI) > MIRA INTERNATIONAL",
+    "drug_class": "ANTIBIOTIC.QUINOLONE",
+    "route": "ORAL.SOLID",
+    "price_egp": 184.0
+  },
+  {
+    "commercial_name_en": "LORATADINE 10MG 10 TAB.",
+    "commercial_name_ar": "لوراتاديني",
+    "scientific_name": "LORATADINE",
+    "manufacturer": "MISR",
+    "drug_class": "ANTI-HISTAMINE.ANTI-ALLERGY",
+    "route": "ORAL.SOLID",
+    "price_egp": 25.5
+  },
+  {
+    "commercial_name_en": "LIPANTHYL 145 MG 20 F.C.TABS.",
+    "commercial_name_ar": "ليبانثيل",
+    "scientific_name": "FENOFIBRATE(NANOCRYSTAL TECHNOLOGY)",
+    "manufacturer": "ABBOTT",
+    "drug_class": "ANTIHYPERLIPIDEMIC.FIBRATES",
+    "route": "ORAL.SOLID",
+    "price_egp": 174.0
+  },
+  {
+    "commercial_name_en": "AERIUS 5 MG 20 F.C.TABS.",
+    "commercial_name_ar": "أيريوس",
+    "scientific_name": "DESLORATADINE",
+    "manufacturer": "SCHERING PLOUGH > RAMCO",
+    "drug_class": "ANTI-HISTAMINE.ANTI-ALLERGY",
+    "route": "ORAL.SOLID",
+    "price_egp": 118.0
+  },
+  {
+    "commercial_name_en": "LACTEOL FORTE  5 BILLION 12 CAPS.",
+    "commercial_name_ar": "لاكتيول فورتي 5 بيلليون",
+    "scientific_name": "LACTOBACILLUS",
+    "manufacturer": "RAMEDA > ADARE PHARMA-FRANCE",
+    "drug_class": "ANTIDIARRHOEAL",
+    "route": "ORAL.SOLID",
+    "price_egp": 200.0
+  },
+  {
+    "commercial_name_en": "DOLIPRANE 1 GM 15 TABS.",
+    "commercial_name_ar": "دوليبراني",
+    "scientific_name": "PARACETAMOL(ACETAMINOPHEN)",
+    "manufacturer": "SANOFI",
+    "drug_class": "ANTIPYRETIC",
+    "route": "ORAL.SOLID",
+    "price_egp": 48.0
+  },
+  {
+    "commercial_name_en": "MUCOTEC 150MG 20 CAPS.",
+    "commercial_name_ar": "موكوتيك",
+    "scientific_name": "ERDOSTEINE",
+    "manufacturer": "GLOBAL NAPI PHARMACEUTICALS",
+    "drug_class": "MUCOLYTIC",
+    "route": "ORAL.SOLID",
+    "price_egp": 72.0
+  }
+]
